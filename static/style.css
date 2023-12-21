@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Audiowide", sans-serif;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(195, 25, 25);
+    padding: 18px 14px; 
+    /* this means giving space from inside */
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 13px 35px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center/ cover no-repeat url("/static/bg3.png");
+    height: 430px;
+    background-color: red;
+    font-size: 35px;
+    flex-direction: column;
+   padding-bottom: 40px;
+}
+#introSection div.small{
+    font-size: 27px;
+    padding: 2px;
+}
+/* MISSION SECTION  */
+#missionSection {
+    height: 500px;
+    width: 67%;
+    margin: auto;
+
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 400px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 7px 35px;
+    color: black;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img {
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px -14px;
+}
+.card-img img {
+    height: inherit;
+    /* this will help to fit the image size according to the box  */
+}
+.card-content {
+   padding: 0 10px; 
+}
+
+.card-content p{
+font-size: 19px;
+}
+
+/* SPONSOR SECTION  */
+#sponsorsSection {
+    height: 300px;
+    background-color: rgba(132, 199, 103, 0.713);
+}
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+#sponsors{
+    height: 178px;
+    max-height: 1000px;
+    margin: 11px 295px;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    background-color: black;
+    font-size: 20px;
+}

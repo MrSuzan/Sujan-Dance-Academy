@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+block content 
+    Section#introSection 
+        div Welcome to Sujan's Dance Academy
+        div.small  Dance is an exercise 
+
+    Section#missionSection 
+        h2 Our Mission
+        div.card 
+          h3  Zoomba Dance
+          div.card-box
+            div.card-img
+                img(src="/static/img/1.png")
+            div.card-content
+                p This is the best academy of dance of chautara.
+
+        div.card 
+          h3  WeightLoss Dance
+          div.card-box
+            div.card-img
+                img(src="/static/img/2.png")
+            div.card-content
+                p This is the best academy of dance of chautara.
+
+        div.card 
+          h3  Entertainment Dance
+          div.card-box
+            div.card-img
+                img(src="/static/img/3.png")
+            div.card-content
+                p This is the best academy of dance of chautara.
+
+    Section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/logo1.png", alt="sponsorimag", Class="spImage")
+            img(src="/static/img/logo2.png", alt="sponsorimag", Class="spImage")
+            img(src="/static/img/logo3.png", alt="sponsorimag", Class="spImage")
+            img(src="/static/img/logo4.png", alt="sponsorimag", Class="spImage")
